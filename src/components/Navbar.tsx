@@ -13,8 +13,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <h1 className="md:text-2xl font-bold text-yellow-500">
-              Barbearia Canoinha
+            <h1 className="hover:scale-105 border-b border-transparent cursor-default hover:border-yellow-500 duration-300 md:text-2xl py-[2px] font-bold text-yellow-500">
+              Canoinha Barbershop
             </h1>
           </div>
           <div className="hidden md:block">
@@ -24,7 +24,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                className="cursor-pointer duration-300 hover:border-b border-b border-transparent hover:border-yellow-500 text-gray-300 hover:text-white px-3 py-2 text-sm font-medium"
+                className="hover:scale-105 cursor-pointer duration-300 hover:border-b border-b border-transparent hover:border-yellow-500 text-gray-300 hover:text-white px-3 py-2 text-sm font-medium"
               >
                 Início
               </Link>
@@ -33,7 +33,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                className="cursor-pointer duration-300 hover:border-b border-b border-transparent hover:border-yellow-500 text-gray-300 hover:text-white px-3 py-2 text-sm font-medium"
+                className="hover:scale-105 cursor-pointer duration-300 hover:border-b border-b border-transparent hover:border-yellow-500 text-gray-300 hover:text-white px-3 py-2 text-sm font-medium"
               >
                 Sobre Nós
               </Link>
@@ -42,7 +42,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                className="cursor-pointer duration-300 hover:border-b border-b border-transparent hover:border-yellow-500 text-gray-300 hover:text-white px-3 py-2 text-sm font-medium"
+                className="hover:scale-105 cursor-pointer duration-300 hover:border-b border-b border-transparent hover:border-yellow-500 text-gray-300 hover:text-white px-3 py-2 text-sm font-medium"
               >
                 Serviços
               </Link>
@@ -51,7 +51,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                className="cursor-pointer duration-300 hover:border-b border-b border-transparent hover:border-yellow-500 text-gray-300 hover:text-white px-3 py-2 text-sm font-medium"
+                className="hover:scale-105 cursor-pointer duration-300 hover:border-b border-b border-transparent hover:border-yellow-500 text-gray-300 hover:text-white px-3 py-2 text-sm font-medium"
               >
                 Contato
               </Link>
